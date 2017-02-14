@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/post_name"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="name"/>
+    <TextView
+        android:id="@+id/post_title"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="title"/>
+    <TextView
+        android:id="@+id/post_context"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="context"/>
+    <ImageView
+        android:id="@+id/post_image"
+        android:background="@mipmap/ic_launcher"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="name"/>
+</LinearLayout>
